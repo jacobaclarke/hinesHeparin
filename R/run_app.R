@@ -11,7 +11,7 @@ app_server <- function(input, output, session) {
 
 app_ui <- function(request) {
     shiny.quartz::Page(
-        "main",
+        "",
         mod_main_ui("main")
     )
 }
